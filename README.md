@@ -1,7 +1,33 @@
-# Instrucciones de Git
+# Aprendiendo comandos Git
 
-Para saber la versión de Git que tenemos intalado existen 2 comandos:
+![Logo](https://git-scm.com/images/logo@2x.png)
 
-| Extendido       | Abreviado | 
-| :-------------- | :-------- | 
-| `git --version` | `git -v`  |
+Para todo comando ejecutado en la terminal debe antecederle siempre la palabra clave `git`:
+
+#### Ejemplo (Ubuntu):
+
+```bash
+~$ git [comando]
+```
+
+## Comandos básicos
+
+### Versión de Git
+Muestra la versión de Git instalada en nuestro ordenador:
+
+#### Sintaxis:
+```bash
+git [-v | --version]
+```
+Para obtener esta `información` podemos usar (02) tipos de comandos:
+
+| Comando     | Tipo       | 
+| :---------- | :--------- | 
+| `-v`        | abreviado  |
+| `--version` | extendido  |
+
+#### Ejemplo (Ubuntu):
+```bash
+ ~$ git --version
+git version 2.43.0
+```
